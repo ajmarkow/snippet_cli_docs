@@ -1,7 +1,8 @@
-# Nextra
+# Snippet CLI
 
-**Nextra** is a [Next.js](https://nextjs.org) based static site generator. 0 line of code needed.  
+** Snippet CLI** is a command line based interface for quickly adding snippets to a YAML file.  
+Snippet CLI is intended to be used with Espanso, a text expander program which takes YAML files as input.  
 
-It supports Markdown with React components ([MDX](/docs/mdx)), automatically generated [sidebar and anchor links](/docs/anchors), file-system based routing, built-in syntax highlighting, i18n and more.
+These docs cover initial setup, using the command line interface to add snippets, and the options to generate forms using the cli.
 
 ![](/demo.png)
