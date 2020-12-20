@@ -4,7 +4,7 @@
 Snippet CLI is intended to be used alongside Espanso, a text expander program which takes YAML files as input.  
 
 These docs cover:
-- Initial setup, 
+- Initial setup.
 - Using the command line interface to add snippets.
 - Options to generate forms using the cli.
 
