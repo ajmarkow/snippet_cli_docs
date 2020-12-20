@@ -1,6 +1,6 @@
 export default {
-  repository: 'https://github.com/shuding/nextra',
-  titleSuffix: ' – Nextra',
+  repository: 'https://github.com/ajmarkow/snippets_for_espanso',
+  titleSuffix: ' – Snippet CLI',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
