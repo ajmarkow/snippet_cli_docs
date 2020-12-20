@@ -3,9 +3,9 @@ export default {
   titleSuffix: ' – Snippet CLI',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Snippet CLI</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next Site Builder
+        A CLI to add snippets and forms to your Espanso configuration.
       </span>
     </>
   ),
@@ -15,14 +15,9 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the next site builder" />
-      <meta name="og:description" content="Nextra: the next site builder" />
+      <meta name="description" content="Snippet CLI: Quickly add Snippets to Espanso" />
+      <meta name="og:description" content="A ruby based command line interface for adding snippets to Espanso" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"/>
       <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"/>
@@ -37,5 +32,5 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>
+  footerText: <>MIT {new Date().getFullYear()} © Snippet CLI.</>
 }
