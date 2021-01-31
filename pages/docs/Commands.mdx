@@ -2,16 +2,19 @@
 
 There are three commands for snippet_cli
 
-``` snippet_cli setup
-    snippet_cli new
-    snippet_cli help```
+``` snippet_cli setup```
+    ```snippet_cli new```
+    ```snippet_cli help```
 
+## Setup
  Run **snippet_cli setup** if you've just installed the gem, or your snippet_cli_config.txt file has been deleted.  This command writes a config file that tells snippet_cli where to find your snippets yaml file to write new snippets to it.
 
+## New
  Run **snippet_cli new** whenever you'd like to add a new snippet to your espanso configuration.  This will launch a dialog that asks you a few questions to set the snippet.
   - The trigger you choose will automatically have a colon : prepended to it.
   - There is also an option in the dialog to use snippet_cli to add a snippet which invokes a form on your computer
   - Indentation will be maintained once you copy text into the replacement text field in your terminal.
   - Hit Ctrl + D to exit the dialog once you're finished.
 
+## Help
 Run **snippet_cli** help if you want to find out where to send any feedback or find documentation about the gem.
